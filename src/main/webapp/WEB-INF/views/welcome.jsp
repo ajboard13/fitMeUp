@@ -10,11 +10,17 @@
 <head>
     <title>Title</title>
 </head>
-<body>
-${message}
-
+<h1>
+<h1>${message}</h1>
+<br>
+<h1>Sign In</h1>
 <a href="http://github.com/login/oauth/authorize?client_id=562161c07d5f44826394">
-
-    <button>Sign in with Github</button></a>
+    <button>Sign in with Github</button>
+</a>
+<br>
+<h1>Sign Up</h1>
+<a href="http://github.com/login/oauth/authorize?client_id=562161c07d5f44826394">
+    <button>Sign up with Github</button>
+</a>
 </body>
 </html>

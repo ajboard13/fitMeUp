@@ -16,8 +16,8 @@ Aaron Board
  */
 
 
-public class Github {
-    public static JSONObject getUserInfo(String token) {
+public class Github implements Oauth{
+    public JSONObject getUserInfo(String token) {
         try {
             URL url = new URL("https://slack.com/api/users.profile.get?token=" + token);
 
@@ -39,7 +39,7 @@ public class Github {
         return null;
     }
 
-    public static String getOAuthToken(String code) {
+    public String getOAuthToken(String code) {
 
         //TODO always delete before a push
         String clientId = "562161c07d5f44826394";
