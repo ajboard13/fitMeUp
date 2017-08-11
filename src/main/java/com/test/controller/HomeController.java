@@ -26,13 +26,13 @@ public class HomeController {
     }
 
     @RequestMapping("/logIn")
-    public ModelAndView logIn(){
-        return home("none");
+    public String logIn(){
+        return "homePage";
     }
 
     @RequestMapping("/signUp")
-    public ModelAndView signUp() {
-        return home("none");
+    public String signUp() {
+        return "homePage";
     }
 
     @RequestMapping("/homePage")

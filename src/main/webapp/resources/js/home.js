@@ -4,8 +4,8 @@ app.service('Map', function($q) {
     
     this.init = function() {
         var options = {
-            center: new google.maps.LatLng(40.7127837, -74.00594130000002),
-            zoom: 13,
+            center: new google.maps.LatLng(42.335622, -83.047052),
+            zoom: 10,
             disableDefaultUI: true    
         }
         this.map = new google.maps.Map(
