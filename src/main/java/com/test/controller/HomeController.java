@@ -1,6 +1,5 @@
 package com.test.controller;
 
-import com.test.Oauth.Github;
 import com.test.Oauth.Oauth;
 import com.test.factories.OathFactory;
 import org.springframework.stereotype.Controller;
@@ -17,7 +16,7 @@ public class HomeController {
     public ModelAndView helloWorld()
     {
         return new
-                ModelAndView("welcome","message","Welcome to FitMeUp!");
+                ModelAndView("index","message","Welcome to FitMeUp!");
 
     }
 
