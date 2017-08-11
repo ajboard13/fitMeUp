@@ -26,7 +26,7 @@
         <div class="form-element">
             <span><i class="fa fa-lock"></i></span><input type="password" placeholder=" Password"/>
         </div>
-        <button class="btn-login">login</button>
+        <a href="/logIn"><button class="btn-login">login</button></a>
     </div>
 
     <div class="register down">
@@ -45,7 +45,7 @@
         <div class="form-element">
             <span><i class="fa fa-lock"></i></span><input type="password" placeholder="Re-Enter Password"/>
         </div>
-        <button class="btn-register">register</button>
+        <a href="/signUp"><button class="btn-register">register</button></a>
     </div>
 
     <div class="login-view-toggle">

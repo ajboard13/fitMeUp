@@ -25,6 +25,15 @@ public class HomeController {
         return "dontLook";
     }
 
+    @RequestMapping("/logIn")
+    public ModelAndView logIn(){
+        return home("none");
+    }
+
+    @RequestMapping("/signUp")
+    public ModelAndView signUp() {
+        return home("none");
+    }
 
     @RequestMapping("/homePage")
 
